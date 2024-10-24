@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <div className="container max-w-screen-lg mx-auto px-5 pb-9 lg:pb-0">
+    <div className="container max-w-screen-lg mx-auto px-5 pb-[130px] lg:pb-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex justify-end lg:pr-4">
           <img src={MpLogo} className="logo" />
@@ -36,7 +36,7 @@ function App() {
       </div>
       <Whatsapp/>
       </div>
-          <div className="w-full bottom-0 absolute right-0 items-center flex justify-center">
+          <div className="w-full bottom-0 fixed lg:absolute right-0 items-center flex justify-center">
           <img src="/base.png" className="w-auto h-auto"/>
       </div>
     </>
