@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import MpLogo from '/logo.svg'
 import './App.css'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { Whatsapp } from './Whatsapp'
@@ -13,7 +12,7 @@ function App() {
     <div className="container max-w-screen-lg mx-auto px-5 pb-[130px] lg:pb-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex justify-end lg:pr-4">
-          <img src={MpLogo} className="logo" />
+          <img src="/logo-01.png" className="logo" />
         </div>
         <div className="column-2-content">
           <p>
