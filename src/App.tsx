@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <div className="container max-w-screen-lg mx-auto px-5">
+    <div className="container max-w-screen-lg mx-auto px-5 pb-9 lg:pb-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="flex justify-end lg:pr-4">
           <img src={MpLogo} className="logo" />
