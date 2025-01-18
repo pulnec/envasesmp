@@ -1,6 +1,8 @@
 import React from 'react';
-import img1 from '../images/cer1.png';
-import img2 from '../images/cer2.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot, faAt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Want = () => {
     return (
@@ -14,13 +16,18 @@ const Want = () => {
                             <div>
                                 <ul>
                                     <li className="text-lg font-semibold">
-                                        Portugal 1122, Santiago de Chile
+                                        <FontAwesomeIcon icon={faLocationDot} /> Portugal 1122, Santiago de Chile
                                     </li>
                                     <li className="text-lg font-semibold">
-                                        envasesmp@gmail.com
+                                        <FontAwesomeIcon icon={faAt} /> envasesmp@gmail.com
                                     </li>
                                     <li className="text-lg font-semibold">
-                                        +56 9 9975 9376
+                                        <FontAwesomeIcon icon={faPhone} />+56 9 9975 9376
+                                    </li>
+                                    <li className="mt-5">
+                                        <h3 className="mb-5 text-2xl font-bold text-[#0a8c44]">Siguenos en instagram!</h3>
+                                        <a href="https://www.instagram.com/envasesmp/" className="cursor-pointer text-lg"><FontAwesomeIcon icon={faInstagram} /> @envasesmp
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
