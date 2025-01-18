@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faAt, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { Link } from 'react-router-dom';
 
 const Want = () => {
     return (
@@ -16,7 +15,7 @@ const Want = () => {
                             <div>
                                 <ul>
                                     <li className="text-lg font-semibold">
-                                        <FontAwesomeIcon icon={faLocationDot} /> Portugal 1122, Santiago de Chile
+                                        <FontAwesomeIcon icon={faLocationDot} /> Calle Portugal 1122, Santiago RM
                                     </li>
                                     <li className="text-lg font-semibold">
                                         <FontAwesomeIcon icon={faAt} /> envasesmp@gmail.com
