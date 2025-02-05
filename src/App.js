@@ -30,7 +30,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("Wolf Training | Adiestramiento de perros para asistencia");
+  useDocTitle("Envases MP, Somos distribuidores líderes en la venta y distribución de productos para delivery y artículos plásticos.");
 
   return (
     <>

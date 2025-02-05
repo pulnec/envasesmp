@@ -24,7 +24,7 @@ const NavBar = () => {
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                  <img alt="Wolf training" src={logo} className="w-[90px] lg:w-[90px] "/>
+                  <img alt="Envases MP" src={logo} className="w-[90px] lg:w-[90px] "/>
                     
                 </div>
                 <div className="group flex flex-col items-center">
